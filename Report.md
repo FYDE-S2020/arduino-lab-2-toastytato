@@ -1,6 +1,6 @@
-Name:
+Name: Shaw-Iong Hsueh
 
-EID:
+EID: sh48926
 
 Team Number:
 
@@ -8,15 +8,15 @@ Team Number:
 
 1. What is the purpose of an IP address?
 
-    answer
+    The IP address identifies who the host, or the network interface, as well as the location of the host in the network. Basically it allows the network to identify the device, and who to send/receive information from.
 
 2. What is a DNS? What are the benefits of using domain names instead of IP addresses?
 
-    answer
+    A Domain Name Service converts IP address to domain names (like google.com) to its IP address. This allows us to access IP addresses in human readable and more memorable formats than a string of numbers.
 
 3. What is the difference between a static IP and a dynamic IP?
 
-    answer
+    A static IP doesn't change once it's assigned to a device, whereas a dynamic IP changes over time.
 
 4. What is the tradeoff between UDP and TCP protocols?
 
