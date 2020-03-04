@@ -20,24 +20,24 @@ Team Number:
 
 4. What is the tradeoff between UDP and TCP protocols?
 
-    answer
+    TCP is connection-based and reliable meaning no loss. UDP is connectionless, unreliable, but fast.
 
 5. Why can't we use the delay function with Blynk?
 
-    answer
+    The delay function messes up the timing the Arduino has with the Blynk app since the Arduino can't do anything while the delay function is running
 
 6. What does it mean for a function to be "Blocking"?
 
-    answer
+    Blocking means that nothing else can run while something is running, like a delay function.
 
 7. Why are interrupts useful for writing Non-Blocking code?
 
-    answer
+    Everytime the Arduino senses an input, it is able to immediately deal with that input and whatever function is needed to implement with that input. It allows simultaneous control of multiple things at once. 
 
 8. What is the difference between interface and implementation? Why is it important?
 
-   answer
+   Interface defines what an object can do, but doesn't actually do it. The implementation is used to determine what the interface does. This is important because it is a level of abstraction that allows the programmer to tell the program to do something without having to know how exactly how the program handles it in the background, as well as preventing the programmer from tinkering with essential background processing. 
 
 9. Screenshot of your Blynk App:
 
-    ![your image here->](img/placeholder.png)
+    ![your image here->](img/BlynkApp.png)
